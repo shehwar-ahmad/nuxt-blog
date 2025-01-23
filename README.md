@@ -1,42 +1,30 @@
-# Nuxt Minimal Starter
+# Nuxt Assessment Blog
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> This project uses PNPM as the package manager, but you can still run npm commands like `npm run dev`.
+
+## Features
+
+- Tailwind CSS for styling
+- Pinia for state management
+- Data stored in a local JSON file
+- A protected route at `/admin/create-post`
+- Default username: **admin**, Default password: **password**
 
 ## Setup
 
-Make sure to install dependencies:
+Install dependencies using PNPM:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+Then start the development server on [http://localhost:3000](http://localhost:3000):
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+
+For more details, check out the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction).
 
 ## Production
 

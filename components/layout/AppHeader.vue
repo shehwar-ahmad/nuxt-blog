@@ -6,12 +6,12 @@
       <div class="cursor-pointer" @click="$router.push('/')">
         <NuxtImg src="/images/Brand.svg" width="107" height="50" />
       </div>
-      <div class="flex flex-row gap-4 items-center flex-wrap">
+      <div class="flex flex-row gap-4 items-center justify-center  flex-wrap">
         <p class="text-sm font-semibold leading-[19.6px] tracking-[0.001em]">
           Top Vendors, Apply Now!
         </p>
         <NuxtImg src="/images/header-user.svg" width="100" height="44" />
-        <p class="text-sm cursor-pointer" @click="handleAuth">
+        <p class="text-sm cursor-pointer w-fit" @click="handleAuth">
           {{ user ? "Logout" : "Login" }}
         </p>
       </div>
