@@ -13,10 +13,10 @@ const props = defineProps<ButtonProps>();
 
 const classes = computed(() => {
   return [
-    'rounded px-[10px] py-[12px] transition-all',
+    'rounded px-[10px] py-[12px] transition-all w-fit',
     {
       primary: 'bg-[#296BFF0D] text-[#222222B2] hover:bg-[#296BFF1]',
-      secondary: 'bg-gray-500 text-white hover:bg-gray-600',
+      secondary: 'border border-solid border-[#6A6A6ACC] rounded-full py-3 px-[32px] text-[#222222B2]',
       tertiary: 'bg-green-500 text-white hover:bg-green-600',
     }[props.variant || 'primary'],
     props.disabled && 'opacity-50 cursor-not-allowed',
