@@ -1,16 +1,74 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "username": "admin",
-            "password": "password"
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "Hello World",
-            "content": "This is my first post"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "password"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "date": "2025-01-01",
+      "title": "Top Trends in Corporate Event Design and Engagement",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog1.png"
+    },
+    {
+      "id": 2,
+      "date": "2025-01-02",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog2.png"
+    },
+    {
+      "id": 3,
+      "date": "2025-01-03",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog3.png"
+    },
+    {
+      "id": 4,
+      "date": "2025-01-04",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog4.png"
+    },
+    {
+      "id": 5,
+      "date": "2025-01-05",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog5.png"
+    },
+    {
+      "id": 6,
+      "date": "2025-01-06",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog6.png"
+    },
+    {
+      "id": 7,
+      "date": "2025-01-07",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog7.png"
+    },
+    {
+      "id": 8,
+      "date": "2025-01-08",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog8.png"
+    },
+    {
+      "id": 9,
+      "date": "2025-01-09",
+      "title": "The Future of Event Planning: 2025 and Beyond",
+      "description": "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
+      "imageUrl": "/images/blogs/blog9.png"
+    }
+  ]
 }

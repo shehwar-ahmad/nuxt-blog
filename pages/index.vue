@@ -28,32 +28,9 @@
 import HeroSection from "~/components/blog/HeroSection.vue";
 import BlogCard from "~/components/blog/BlogCard.vue";
 import AppButton from "~/components/base/AppButton.vue";
+import data from "~/db/db.json";
 
-const articles = ref([
-  {
-    id: 1,
-    date: "2025-01-01",
-    title: "Top Trends in Corporate Event Design and Engagement",
-    description: "Progressively incentivize cooperative systems through technically sound functionalities. Credibly productivate seamless data with flexible schemas.",
-    imageUrl: "/images/blogs/blog1.png",
-  },
-  {
-    id: 2,
-    date: "2025-01-02",
-    title: "Consectetur adipiscing elit",
-    description:
-      "Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: "/images/blogs/blog1.png",
-  },
-  {
-    id: 3,
-    date: "2025-01-03",
-    title: "Sed do eiusmod tempor incididunt",
-    description:
-      "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imageUrl: "/images/blogs/blog1.png",
-  },
-]);
+const articles = ref(data.posts);
 </script>
 
 <style scoped></style>
