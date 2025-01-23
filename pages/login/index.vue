@@ -4,7 +4,9 @@
       <h1 class="text-2xl font-bold mb-6 text-center">Login</h1>
       <form @submit.prevent="login" class="space-y-4">
         <div>
-          <label for="username" class="block text-sm font-medium text-gray-700">Username:</label>
+          <label for="username" class="block text-sm font-medium text-gray-700"
+            >Username:</label
+          >
           <input
             type="text"
             v-model="username"
@@ -14,7 +16,9 @@
           />
         </div>
         <div>
-          <label for="password" class="block text-sm font-medium text-gray-700">Password:</label>
+          <label for="password" class="block text-sm font-medium text-gray-700"
+            >Password:</label
+          >
           <input
             type="password"
             v-model="password"
@@ -35,21 +39,15 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import { useRouter } from 'vue-router';
+import { ref } from "vue";
+import { useUserStore } from "~/stores/user";
 
-const username = ref('');
-const password = ref('');
-const router = useRouter();
-const authToken = useCookie('authToken');
+const username = ref("admin");
+const password = ref("password");
 
-const login = () => {
-  if (username.value === 'admin' && password.value === 'password') {
-    authToken.value = 'tokenValue';
-    router.push('/admin/create-post');
-  } else {
-    alert('Invalid credentials');
-  }
+const login = async () => {
+  const userStore = useUserStore();
+  await userStore.loginUser(username.value, password.value);
 };
 </script>
 

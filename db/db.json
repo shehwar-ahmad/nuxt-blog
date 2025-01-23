@@ -1,0 +1,16 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "admin",
+            "password": "password"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Hello World",
+            "content": "This is my first post"
+        }
+    ]
+}
